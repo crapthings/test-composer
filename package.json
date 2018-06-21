@@ -1,0 +1,16 @@
+{
+  "name": "test-composer",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.51",
+    "@lvfang/mantra-core": "^1.9.1",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.10",
+    "meteor-node-stubs": "^0.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
