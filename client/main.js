@@ -25,7 +25,7 @@ const tracker2 = (props, onData) => {
 }
 
 const tracker3 = (props, onData) => {
-  console.log('tracker1')
+  console.log('tracker3')
 
   if (Meteor.subscribe('test3').ready()) {
     const test3 = Test.find().fetch()
